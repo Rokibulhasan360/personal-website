@@ -20,18 +20,53 @@ h2{
     padding-top: 175px;
     padding-right:45px;
 }
+h3{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+    
+}
+h5{
+    text-align: center;
+    padding-top: 40px;
+}
+h6{
+    text-align: center;
+    color: grey;
+}
 #text1{
     padding-left: 200px;
     font-size: 11.7px;
-    text-align: justify;
-    
+    text-align: justify; 
+    position: relative;
+  bottom: 10px;  
 
+}
+#text2{
+    padding-left: 60px;
+    position: relative;
+    bottom: 10px;
+    font-size: 15px;
+    text-align: justify;
+}
+#text3{
+   
+    font-size: 15px;
+    margin-left: 40%;
+    text-align: justify;
+}
+#text4{
+    font-size: 15px;
+    margin-left: 42%;
+    text-align: justify;
+    margin-top: 140px;
+}
 }
 .name{
    color: crimson;
   
 }
-.half-width{
+.half-width1{
     width: 40%;
     float: left;
     margin-left: 5%;
@@ -40,13 +75,112 @@ h2{
    
 }
 
-.half-width img{
+.half-width1 img{
    width: 100%;
    padding-left: 10%;
    padding-top: 10%;
+}
+.half-width2{
+    width: 40%;
+    
+    float: left;
+   
+    padding-left: 100px;
+  padding-top: 5%;
+ 
+   
+}
+
+.half-width2 img{
+   width: 100%;
+  padding-left: 70px;
+
+  
+   
 }
 
 section{
     height: 500px;
     padding-bottom: 150px;
+}
+
+.link-button1{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,hotpink,#DC143C);
+  margin-left: 200px;
+  padding: 5px 20px 5px 20px;
+  border-radius: 5px;
+  position: relative;
+  top: 20px;
+  font-weight: 700;
+  color: white;
+}
+.link-button2{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,hotpink,#DC143C);
+  margin-left: 60px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 5px;
+  margin-top: 100px;
+  position: relative;
+  top: 30px;
+  font-weight: 700;
+  color: white;
+  
+}
+.bio{
+    padding-right: 290px;
+   margin-top: 160px;
+}
+.biography-area{
+ background-image: url("project-file/biography-bg.png");
+background-repeat: no-repeat;
+margin-top: 300px;
+height: 700px;
+
+}
+.work-area{
+    height: 500px;
+    margin-top: 150px;
+    text-align: center;
+    background-image: url("project-file/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+  
+}
+.width{
+    margin-top: 10px;
+    width: 25%;
+    margin-left: 2%;
+    float: left;
+    padding-left: 20px;
+}
+.width img{
+    width: 100%;
+    margin-left: 4%;
+    position: relative;
+    left: 70px;
+    margin-top: 80px;
+   
+}
+footer{
+    background-image: url("project-file/footer-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+    text-align: center;
+   
+}
+h4{
+    font-size: 22px;
+}
+.footer{
+    text-align: center;
+   width: 32%;
+   height: 130px;
+   background-image: linear-gradient(45deg,hotpink,crimson);
+  margin-left: 35%;
+  border-radius: 10px;
+  color: white;
+  margin-top: 50px;
 }
